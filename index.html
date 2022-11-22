@@ -1,0 +1,107 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Liz's Personal Page</title>
+</head>
+<body>
+
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Liz's Personal Page</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+      </ul>
+        <form class="form- my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+  </nav>       
+  
+
+<!-- Intro -->
+<section id="intro">
+<section class="bg-info text-light p-10 lg-10 pt-lg-10 p-md-10 text-center text-sm-start shadow p-3 mb-5 bg-body">
+    <div class="container p-5 bg-info">
+        <div class="row-md col-sm">
+            <div class="d-md-flex bg-info align-items-center justify-content-between">
+                <h1 class="col-lg-2 col-md-6 pe-md-5" id="hello">Hi, Coding Temple instructors! I'm Elizabeth, but everybody just calls me Liz.</h1>                
+                <img src="static/header.jpg" alt="Page Designer" class="img-fluid col-lg-9 col-md-8 col-sm-6" id="header">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="p-10 p-lg-0 lg-10 text-center text-sm-start">
+    <div class="container mt-10 p-5">
+        <div class="row-md col-sm">
+            <div class="d-sm-flex align-items-center justify-content-evenly">
+                <p id="description">I just arrived back in the United States after about a decade of teaching over in South Korea!
+                    I'm now living in Arkansas with a cat named Schro and a granny dog named Doodle. I'm into reading and hiking, 
+                    and spend what is almost certainly too much time on the Internet. <br><br>
+
+                    I also don't really like talking about msyelf, but Korea is awesome, want to see a <a href="gallery.html">gallery</a>?
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="contact" class="bg-light text-dark text-center align-items-center">
+    <div class="container p-10 bg-light">
+        <form>
+            <div class="form-group">
+                <label for="InputName">Name</label>
+                <input type="name" class="form-control" id="InputName" placeholder="First name and last name, please! Look at all this space.">
+            </div>
+            <div class="form-group">
+                <label for="InputEmail">Email address</label>
+                <input type="email" class="form-control" id="InputEmail" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="InputMessage">What do you want to talk about?</label>
+                <textarea class="form-control" id="InputMessage" rows="5" placeholder="Tell me everything you need me to know!"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</section>
+
+
+
+<footer>
+    <p class="lead text-center p-3">&copy photos Elizabeth Hall 2022
+
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
